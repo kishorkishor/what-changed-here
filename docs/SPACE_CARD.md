@@ -16,5 +16,6 @@ Pick any place on Earth and two dates. Get back a map of what changed and a shor
 from a system that tells you where it is not sure.
 
 Sentinel-2 images (Copernicus, via Earth Search), spectral change rules with per pixel confidence,
-outlines by SAM 3.1 and analysis by Muse Spark (Meta Model API). Code and method:
-https://github.com/kishorkishor/Meta_Hackathon
+outlines by SAM 3.1, analysis by Muse Spark and spoken questions by Muse Voice Transcribe (Meta Model API).
+Reports, answers and field checklists come in 15 languages. Code and method:
+https://github.com/kishorkishor/what-changed-here

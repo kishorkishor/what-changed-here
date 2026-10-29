@@ -69,7 +69,7 @@ PLANNER_MAX_STEPS = 10        # turns the plain words planner may take before it
 PLANS_PER_HOUR = int(os.environ.get("WCH_PLANS_PER_HOUR", "40"))   # for the whole server; each plan costs calls
 WEB_SEARCH = os.environ.get("WCH_WEB_SEARCH", "1") != "0"           # Muse Spark search grounding for event dates
 GEOCODER_URL = os.environ.get("WCH_GEOCODER_URL", "https://nominatim.openstreetmap.org/search")
-USER_AGENT = "WhatChangedHere/0.2 (github.com/kishorkishor/Meta_Hackathon)"
+USER_AGENT = "WhatChangedHere/0.2 (github.com/kishorkishor/what-changed-here)"
 
 # ---- NASA FIRMS active fires ----
 FIRMS_MAP_KEY = os.environ.get("FIRMS_MAP_KEY", "")
